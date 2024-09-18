@@ -1,0 +1,183 @@
+*{
+    margin:0;
+    padding:0;
+    
+    
+}
+
+.main{
+    width:100%;
+    height:100vh;
+    
+    
+}
+.container{
+    width:100%;
+    height:90%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+    
+    
+
+}
+.header{
+    width:100%;
+    height:10%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.container::-webkit-scrollbar{
+    display:none;
+}
+.profile-name{
+    width:50%;
+}
+.profile-name p{
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+.icons{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    width:40%;
+}
+.profile{
+    display:flex;
+    width:100%;
+    height: 20%;
+
+}
+.profile-picture{
+    width:35%;
+}
+.profile-picture img{
+    padding-top: 10px;
+    padding-left:10px;
+    width:80%;
+    height: 80%;
+    border-radius: 100px;
+    object-fit: cover;
+}
+.stats{
+    width:65%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    font-size: 20px;
+
+}
+.stats p{
+    margin: 0;
+}
+.profile-details{
+    font-size:20px;
+    margin-left:10px;
+
+}
+.buttons-profile{
+    width:100%;
+    height:10%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:10px;
+    padding-right: 10px;
+    
+}
+.long-button{
+    padding:10px;
+    width:150px;
+    border-radius: 8px;
+    
+}
+.short-button{
+    margin-left: 5px;
+    border-radius: 8px;
+}
+.short-button img{
+    width:40px;
+    height:40px;
+}
+button{
+    border:none;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.nav-icons{
+    display:flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height:8%;
+}
+.grid img,.reels img,.tag img{
+    width:40px;
+    height:40px;
+
+}
+.page-container{
+    width:100%;
+    height:100%;
+    display:grid;
+    
+    grid-template-columns: repeat(3,  minmax( 0, 1fr));
+    grid-auto-rows: 120px;
+    column-gap: 2px;
+    row-gap:5px;
+}
+.page{
+    width:100%;
+    height:100%;
+    
+
+}
+.page img{
+    width:100%;
+    height:100;
+    object-fit: cover;
+}
+.footer{
+    width:100%;
+    height:10%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom:0;
+    
+    
+    
+}
+.profile-img img{
+    width:45px;
+    height:45px;
+    border-radius:40px;
+    margin-right: 10px;
+    border: 2px solid black ;
+}
+.home img{
+    width:40px;
+    height:40px;
+    margin-left:10px;
+}
+
+.search img{
+    width:40px;
+    height:40px;
+}
+.add img{
+    width:40px;
+    height:40px;
+}
+.reels img{
+    width:40px;
+    height:40px;
+}
